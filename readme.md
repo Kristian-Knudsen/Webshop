@@ -3,7 +3,7 @@
 Clone the project (if not done already)
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Kristian-Knudsen/Webshop
 ```
 
 Go to the project directory
@@ -29,7 +29,7 @@ Start the server
 Clone the project (if not done already)
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Kristian-Knudsen/Webshop
 ```
 
 Go to the project directory
