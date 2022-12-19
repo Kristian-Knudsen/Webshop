@@ -1,0 +1,38 @@
+@use '../../globals' as *;
+.nav {
+    background-color: #031662;
+    font-family: $font;
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.brand {
+    margin: 0;
+    color: orangered;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.brandLogo {
+    width: 96px;
+    height: auto;
+    align-self: center;
+}
+
+.category {
+    color: rgb(125, 125, 125);
+    font-style: italic;
+    margin-top: 2rem;
+}
+.userName {
+    margin-bottom: 0;
+}
+
+.userTitle {
+    margin-top: .2rem;
+}

@@ -1,0 +1,57 @@
+@use '../../globals' as *;
+
+.wrapper {
+    height: fit-content;
+    text-align: center;
+    width: 65%;
+    background-color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+    font-family: $font;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tablerow:nth-of-type(2n) {
+    background-color: rgb(199, 199, 199);
+}
+.tablerow:nth-of-type(2n-1) {
+    background-color: rgb(230, 230, 230);
+}
+.tablerow:hover{
+    background-color: rgb(146, 146, 146);
+    cursor: pointer;
+}
+.tablerow > td {
+    padding: 1rem;
+}
+.statusButton {
+    padding: .5rem 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 7px;
+}
+
+.complete {
+    background-color: #26c420;
+    border: #26c420;
+}
+.pending {
+    background-color: #d88d01;
+    border: #d88d01;
+}
+.processing {
+    background-color: #0084ff;
+    border: #0084ff;
+}
+.cancelled {
+    background-color: #ee0202;
+    border: #ee0202;
+}

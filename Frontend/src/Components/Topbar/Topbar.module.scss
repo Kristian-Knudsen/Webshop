@@ -1,0 +1,43 @@
+@use '../../globals' as *;
+
+.wrapper {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1.5rem 1rem;
+    font-family: $font;
+}
+
+.infoitem {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.infoitem > svg {
+    padding: .4rem;
+    border-radius: 50%;
+}
+.infoiteminner {
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+}
+.infoiteminner > * {
+    margin: 0;
+}
+
+.blue {
+    background-color: #b7e4fc;
+    color: #1b9ce2;
+}
+.darkblue {
+    background-color: #96a8e9;
+    color: #4f71e8;
+}
+
+.purple {
+    background-color: #d1a5f3;
+    color: #ab4bf4;
+}
