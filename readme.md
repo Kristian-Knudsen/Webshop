@@ -57,5 +57,5 @@ Coming :)
 
 **Client:** React, Sass, Recharts
 
-**Server:** Node, Express, MySQL, Prisma
+**Server:** Typescript, Node, Express, MySQL, Prisma
 
